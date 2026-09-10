@@ -17,7 +17,6 @@
   <a href="https://github.com/triage-software/skills/pulls"><img src="https://img.shields.io/badge/PRs-welcome-ff69b4.svg" alt="PRs welcome" /></a>
 </p>
 
-<!-- PIOTR: rewrite in your voice -->
 These skills ran a real product to completion. The workflow was proven inside the upstream [Open Mercato](https://github.com/open-mercato/skills) project, where it produced ~800k lines of code with zero hand-written lines, 1700+ merged PRs, 4000 unit tests, 730 integration tests, and weekly releases, with 100+ contributors working through it. This repository carries that pipeline into the [Open Triage](https://github.com/triage-software/open-triage) project, stripped of everything product-specific, so any team with a GitHub repo can run it.
 
 ## ⚡ 30-second quickstart
@@ -67,10 +66,6 @@ This refreshes the installed skill files to their latest versions. It does not o
 That skill applies the relevant [UPGRADE_NOTES.md](UPGRADE_NOTES.md) migrations while preserving local edits.
 
 ℹ️ A few skills drive a real browser through the configured browser provider — [`ot-prepare-test-env`](docs/skills/ot-prepare-test-env.md), [`ot-integration-tests`](docs/skills/ot-integration-tests.md), and [`ot-auto-qa-pr`](docs/skills/ot-auto-qa-pr.md). Because of that, skills.sh validation may flag them as **Medium** or **High** risk. We of course recommend reading any skill before you run it — but we use these exactly as shipped at Open Triage, with no issues so far.
-
-## 🎬 See how it works!
-
-[![Watch on YouTube](https://img.youtube.com/vi/zPNW-xtwNsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=zPNW-xtwNsE)
 
 ## 🛠️ Local development
 
@@ -375,5 +370,4 @@ Real production case studies are being added here.
 
 ---
 
-<!-- PIOTR: rewrite in your voice -->
 Built by the [Open Triage](https://github.com/triage-software/open-triage) team, where these skills ship the product every week. We teach this way of working at [aitechleaders.pl](https://aitechleaders.pl) (an AI engineering course, in Polish).

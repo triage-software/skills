@@ -39,7 +39,7 @@ Runnable check (POSIX shell; run from the repository root so repo-local
 ```bash
 # SKILLS_ROOT: parent directory of this skill's installed directory.
 SKILLS_ROOT=${SKILLS_ROOT:-"$HOME/.claude/skills"}
-ROSTER="ot-apply-upgrade-notes ot-approve-merge-pr ot-auto-continue-pr ot-auto-continue-pr-loop ot-auto-create-pr ot-auto-create-pr-loop ot-auto-fix-issue ot-auto-fix-pr ot-auto-implement-spec ot-auto-manage-issues ot-auto-qa-pr ot-auto-review-pr ot-auto-update-changelog ot-auto-write-spec ot-brainstorm ot-check-and-commit ot-close-fixed-issues ot-code-review ot-create-skill ot-discover ot-fix ot-followup-issue-from-pr ot-integration-tests ot-merge-buddy ot-open-pr ot-pipeline-retro ot-pr-autopilot ot-prepare-issue ot-prepare-test-env ot-review-prs ot-root-cause ot-setup-agent-pipeline ot-spec-writing ot-ux-review-pr ot-ux-setup ot-ux-shape ot-verify-in-repo"
+ROSTER="ot-apply-upgrade-notes ot-approve-merge-pr ot-auto-continue-pr ot-auto-continue-pr-loop ot-auto-create-pr ot-auto-create-pr-loop ot-auto-fix-issue ot-auto-fix-pr ot-auto-implement-spec ot-auto-manage-issues ot-auto-qa-pr ot-auto-review-pr ot-auto-update-changelog ot-auto-write-spec ot-brainstorm ot-check-and-commit ot-close-fixed-issues ot-code-review ot-competitor-site-teardown ot-create-skill ot-discover ot-fix ot-followup-issue-from-pr ot-geo-i18n-strategy ot-integration-tests ot-merge-buddy ot-open-pr ot-rebrand-ui ot-pipeline-retro ot-pr-autopilot ot-prepare-issue ot-prepare-test-env ot-review-prs ot-root-cause ot-setup-agent-pipeline ot-spec-writing ot-ux-review-pr ot-ux-setup ot-ux-shape ot-verify-in-repo ot-website-deploy"
 missing=""
 add_missing() { case " $missing " in *" $1 "*) ;; *) missing="$missing $1" ;; esac; }
 for dir in "$SKILLS_ROOT"/ot-*/; do
